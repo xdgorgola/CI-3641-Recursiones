@@ -143,7 +143,7 @@ namespace CI_3641_Recursions
             if (n < ALPHA * BETA)
                 return n;
 
-            long start = n - BETA * (n / BETA);
+            long start = n % BETA;
             return Aux(start + BETA * 5, start + BETA * 4, start + BETA * 3, start + BETA * 2, start + BETA, start, (n - (BETA * ALPHA)) / BETA + 1);
         }
 
@@ -159,7 +159,7 @@ namespace CI_3641_Recursions
                 return n;
 
             // Variable auxiliar. Igual que la variable start en la recursion de cola
-            long start = n - BETA * (n / BETA);
+            long start = n % BETA;
 
             // Variables que representan cada parametro de la funcion recursiva de cola
             long c1 = start + BETA * 5;
