@@ -22,10 +22,10 @@ O el comando:
     dontet build <path al archivo .csproj> --os <rid os> -c <Config>
  
 Donde:
-  - <path al archivo .csproj>: Path al archivo CI-3641-Recursions.csproj en el projecto.
-  - <rid>: Identificador de runtime al cual buildear (posibles runtimes en la sección notas).
-  - <rid os>: Similar al rid pero en vez de indicar arquitectura, solo se indica el os (win, linux, osx).
-  - <Config>: Configuración a buildear. Puede usarse Debug (sin optimizaciones) y Release (con optimizaciones).
+  - path al archivo .csproj: Path al archivo CI-3641-Recursions.csproj en el projecto.
+  - rid: Identificador de runtime al cual buildear (posibles runtimes en la sección notas).
+  - rid os: Similar al rid pero en vez de indicar arquitectura, solo se indica el os (win, linux, osx).
+  - Config: Configuración a buildear. Puede usarse Debug (sin optimizaciones) y Release (con optimizaciones).
 
 Una vez buildeado el archivo quedara en los siguientes paths:
 
